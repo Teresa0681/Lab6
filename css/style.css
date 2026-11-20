@@ -1,0 +1,22 @@
+
+:root {
+    --bs-primary: #537b69;
+    --bs-primary-rgb: 83, 123, 105;
+    --bs-body-bg: #f8f6f1;
+    --bs-body-color: #283b32;
+}
+
+.navbar {
+    --bs-tertiary-bg-rgb: 232, 239, 232;
+}
+
+.btn-primary {
+    --bs-btn-bg: #537b69;
+    --bs-btn-border-color: #537b69;
+    --bs-btn-hover-bg: #3d5e4e;
+    --bs-btn-hover-border-color: #3d5e4e;
+}
+
+.card {
+    --bs-card-bg: #ffffff;
+}
