@@ -1,9 +1,10 @@
-
 :root {
-    --bs-primary: #537b69;
-    --bs-primary-rgb: 83, 123, 105;
     --bs-body-bg: #f8f6f1;
-    --bs-body-color: #283b32;
+    --bs-body-color: #263d33;
+    --bs-body-font-family: "Trebuchet MS", Arial, sans-serif;
+    --bs-primary: #456b58;
+    --bs-primary-rgb: 69, 107, 88;
+    --bs-border-color: #d5e1d6;
 }
 
 .navbar {
@@ -11,12 +12,20 @@
 }
 
 .btn-primary {
-    --bs-btn-bg: #537b69;
-    --bs-btn-border-color: #537b69;
-    --bs-btn-hover-bg: #3d5e4e;
-    --bs-btn-hover-border-color: #3d5e4e;
+    --bs-btn-bg: #456b58;
+    --bs-btn-border-color: #456b58;
+    --bs-btn-hover-bg: #304e3f;
+    --bs-btn-hover-border-color: #304e3f;
 }
 
 .card {
     --bs-card-bg: #ffffff;
+    --bs-card-border-color: #d5e1d6;
+    --bs-card-border-radius: 1rem;
+}
+
+.accordion {
+    --bs-accordion-bg: #ffffff;
+    --bs-accordion-active-bg: #e8efe8;
+    --bs-accordion-active-color: #263d33;
 }
