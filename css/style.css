@@ -1,31 +1,30 @@
 :root {
-    --bs-body-bg: #f8f6f1;
-    --bs-body-color: #263d33;
+    --bs-bg-body: #f7f8ef;
+    --bs-bg-1: #e8f0e4;
+    --bs-bg-2: #d6e5d3;
+    --bs-fg-body: #344f3d;
+    --bs-fg-1: #344f3d;
+    --bs-fg-2: #456b50;
+    --bs-primary-base: #456b50;
+    --bs-primary-fg: #344f3d;
+    --bs-primary-contrast: #ffffff;
+    --bs-border-color: #c7d9c4;
     --bs-body-font-family: "Trebuchet MS", Arial, sans-serif;
-    --bs-primary: #456b58;
-    --bs-primary-rgb: 69, 107, 88;
-    --bs-border-color: #d5e1d6;
 }
-
 .navbar {
-    --bs-tertiary-bg-rgb: 232, 239, 232;
+    --bs-navbar-color: #344f3d;
+    --bs-navbar-brand-color: #344f3d;
 }
-
-.btn-primary {
-    --bs-btn-bg: #456b58;
-    --bs-btn-border-color: #456b58;
-    --bs-btn-hover-bg: #304e3f;
-    --bs-btn-hover-border-color: #304e3f;
-}
-
 .card {
     --bs-card-bg: #ffffff;
-    --bs-card-border-color: #d5e1d6;
+    --bs-card-border-color: #c7d9c4;
     --bs-card-border-radius: 1rem;
 }
-
 .accordion {
     --bs-accordion-bg: #ffffff;
-    --bs-accordion-active-bg: #e8efe8;
-    --bs-accordion-active-color: #263d33;
+    --bs-accordion-active-bg: #e8f0e4;
+    --bs-accordion-active-color: #344f3d;
+}
+.dialog {
+    --bs-dialog-bg: #f7f8ef;
 }

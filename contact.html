@@ -1,74 +1,85 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Pet Care Services | Contact</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+
     <script type="module" src="js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar md:navbar-expand bg-1 fg-2">
         <div class="container-fluid">
 
             <a class="navbar-brand" href="index.html">
                 Pet Care Services
             </a>
 
-            <button class="navbar-toggler" type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="btn-icon navbar-toggler"
+                    type="button"
+                    data-bs-toggle="drawer"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"
+                      aria-hidden="true"></span>
             </button>
 
-            <div class="offcanvas offcanvas-end"
-                tabindex="-1"
-                id="navbarNav"
-                aria-labelledby="navbarNavLabel">
+            <dialog class="drawer drawer-end"
+                    tabindex="-1"
+                    id="navbarNav"
+                    aria-labelledby="navbarNavLabel">
 
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="navbarNavLabel">
+                <div class="drawer-header">
+                    <h2 class="drawer-title h5" id="navbarNavLabel">
                         Menu
-                    </h5>
-                    <button type="button" class="btn-close"
-                        data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
+                    </h2>
+
+                    <button type="button"
+                            class="btn-close"
+                            data-bs-dismiss="drawer"
+                            aria-label="Close">
+                    </button>
                 </div>
 
-                <div class="offcanvas-body">
+                <div class="drawer-body">
                     <ul class="navbar-nav">
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">
+                            <a class="nav-link"
+                               href="index.html">
                                 Home
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#services">
+                            <a class="nav-link"
+                               href="index.html#services">
                                 Our Services
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link active"
-                                aria-current="page"
-                                href="contact.html">
+                               aria-current="page"
+                               href="contact.html">
                                 Contact
                             </a>
                         </li>
 
                     </ul>
                 </div>
-            </div>
+
+            </dialog>
+
         </div>
     </nav>
 
@@ -84,108 +95,150 @@
 
         <form action="#" method="get">
 
-            <div class="row g-3">
+            <div class="row g-4">
 
-                <!-- Field 1 -->
-                <div class="col-md-6">
-                    <label for="firstName" class="form-label">
-                        First Name
-                    </label>
-                    <input type="text"
-                        class="form-control"
-                        id="firstName"
-                        name="firstName"
-                        required>
-                </div>
+                <!-- First Name -->
+                <div class="col-12 md:col-6">
+                    <div class="form-field">
 
-                <!-- Field 2 -->
-                <div class="col-md-6">
-                    <label for="lastName" class="form-label">
-                        Last Name
-                    </label>
-                    <input type="text"
-                        class="form-control"
-                        id="lastName"
-                        name="lastName"
-                        required>
-                </div>
-
-                <!-- Field 3 -->
-                <div class="col-md-6">
-                    <label for="email" class="form-label">
-                        Email Address
-                    </label>
-                    <input type="email"
-                        class="form-control"
-                        id="email"
-                        name="email"
-                        required>
-                </div>
-
-                <!-- Field 4 -->
-                <div class="col-md-6">
-                    <label for="phone" class="form-label">
-                        Phone Number
-                    </label>
-                    <input type="tel"
-                        class="form-control"
-                        id="phone"
-                        name="phone">
-                </div>
-
-                <!-- Field 5 -->
-                <div class="col-12">
-                    <label for="service" class="form-label">
-                        Choose a Service
-                    </label>
-                    <select class="form-select"
-                        id="service"
-                        name="service"
-                        required>
-                        <option value="" selected disabled>
-                            Select a service
-                        </option>
-                        <option value="dogBathing">Dog Bathing</option>
-                        <option value="catBathing">Cat Bathing</option>
-                        <option value="playtime">Pet Playtime</option>
-                        <option value="activities">Dog Activities</option>
-                        <option value="sitting">Pet Sitting</option>
-                        <option value="grooming">Dog Grooming</option>
-                    </select>
-                </div>
-
-                <!-- Field 6 -->
-                <div class="col-12">
-                    <label for="message" class="form-label">
-                        Your Message
-                    </label>
-                    <textarea class="form-control"
-                        id="message"
-                        name="message"
-                        rows="4"
-                        required></textarea>
-                </div>
-
-                <!-- Checkbox -->
-                <div class="col-12">
-                    <div class="form-check">
-                        <input class="form-check-input"
-                            type="checkbox"
-                            id="agreement"
-                            name="agreement"
-                            required>
-                        <label class="form-check-label"
-                            for="agreement">
-                            I agree to be contacted about my request.
+                        <label for="firstName" class="form-label">
+                            First Name
                         </label>
+
+                        <input type="text"
+                               class="form-control"
+                               id="firstName"
+                               name="firstName"
+                               required>
+
                     </div>
                 </div>
 
-                <!-- Submit -->
+                <!-- Last Name -->
+                <div class="col-12 md:col-6">
+                    <div class="form-field">
+
+                        <label for="lastName" class="form-label">
+                            Last Name
+                        </label>
+
+                        <input type="text"
+                               class="form-control"
+                               id="lastName"
+                               name="lastName"
+                               required>
+
+                    </div>
+                </div>
+
+                <!-- Email -->
+                <div class="col-12 md:col-6">
+                    <div class="form-field">
+
+                        <label for="email" class="form-label">
+                            Email Address
+                        </label>
+
+                        <input type="email"
+                               class="form-control"
+                               id="email"
+                               name="email"
+                               placeholder="Enter your email address"
+                               required>
+
+                    </div>
+                </div>
+
+                <!-- Service -->
+                <div class="col-12 md:col-6">
+                    <div class="form-field">
+
+                        <label for="service" class="form-label">
+                            Choose a Service
+                        </label>
+
+                        <select class="form-control"
+                                id="service"
+                                name="service"
+                                required>
+
+                            <option value="" selected disabled>
+                                Select a service
+                            </option>
+
+                            <option value="dogBathing">
+                                Dog Bathing
+                            </option>
+
+                            <option value="catBathing">
+                                Cat Bathing
+                            </option>
+
+                            <option value="playtime">
+                                Pet Playtime
+                            </option>
+
+                            <option value="training">
+                                Dog Training
+                            </option>
+
+                            <option value="sitting">
+                                Pet Sitting
+                            </option>
+
+                            <option value="grooming">
+                                Dog Grooming
+                            </option>
+
+                        </select>
+
+                    </div>
+                </div>
+
+                <!-- Message -->
                 <div class="col-12">
-                    <button type="submit" class="btn btn-primary">
+                    <div class="form-field">
+
+                        <label for="message" class="form-label">
+                            Your Message
+                        </label>
+
+                        <textarea class="form-control"
+                                  id="message"
+                                  name="message"
+                                  rows="4"
+                                  required></textarea>
+
+                    </div>
+                </div>
+
+                <!-- Consent Checkbox -->
+                <div class="col-12">
+                    <div class="form-field">
+
+                        <div>
+                            <input type="checkbox"
+                                   class="check"
+                                   id="agreement"
+                                   name="agreement"
+                                   required>
+
+                            <label for="agreement">
+                                I agree to be contacted about my request.
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="col-12">
+
+                    <button type="submit"
+                            class="btn-solid theme-primary">
                         Send Message
                     </button>
+
                 </div>
 
             </div>
@@ -194,6 +247,7 @@
 
     </main>
 
+    <!-- Footer -->
     <footer class="container mt-5 mb-4">
         <p>Pet Care Services</p>
     </footer>
