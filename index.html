@@ -7,7 +7,6 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-
     <script type="module" src="js/bootstrap.bundle.min.js"></script>
 </head>
 
@@ -16,7 +15,6 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-
             <a class="navbar-brand" href="index.html">
                 Pet Care Services
             </a>
@@ -38,39 +36,28 @@
                     <h5 class="offcanvas-title" id="navbarNavLabel">
                         Menu
                     </h5>
-                    <button type="button"
-                        class="btn-close"
+                    <button type="button" class="btn-close"
                         data-bs-dismiss="offcanvas"
-                        aria-label="Close">
-                    </button>
+                        aria-label="Close"></button>
                 </div>
 
                 <div class="offcanvas-body">
                     <ul class="navbar-nav">
-
                         <li class="nav-item">
                             <a class="nav-link active"
                                 aria-current="page"
-                                href="index.html">
-                                Home
-                            </a>
+                                href="index.html">Home</a>
                         </li>
-
                         <li class="nav-item">
-                            <a class="nav-link" href="#services">
-                                Our Services
-                            </a>
+                            <a class="nav-link"
+                                href="#services">Our Services</a>
                         </li>
-
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">
-                                Contact
-                            </a>
+                            <a class="nav-link"
+                                href="contact.html">Contact</a>
                         </li>
-
                     </ul>
                 </div>
-
             </div>
         </div>
     </nav>
@@ -78,14 +65,10 @@
     <main class="container mt-5">
 
         <h1>Welcome to Pet Care Services</h1>
-
-        <p>
-            We provide caring services for pets and their owners.
-        </p>
+        <p>We provide caring services for pets and their owners.</p>
 
         <!-- Carousel -->
         <div id="petCarousel" class="carousel slide">
-
             <div class="carousel-inner">
 
                 <div class="carousel-item active">
@@ -105,34 +88,27 @@
                         class="d-block w-100"
                         alt="Dog playing with colorful balls">
                 </div>
-
             </div>
 
-            <button class="carousel-control-prev"
-                type="button"
+            <button class="carousel-control-prev" type="button"
                 data-bs-target="#petCarousel"
                 data-bs-slide="prev">
-
                 <span class="carousel-control-prev-icon"
                     aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
 
-            <button class="carousel-control-next"
-                type="button"
+            <button class="carousel-control-next" type="button"
                 data-bs-target="#petCarousel"
                 data-bs-slide="next">
-
                 <span class="carousel-control-next-icon"
                     aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-
         </div>
 
         <!-- Card Gallery -->
         <section id="services" class="mt-5">
-
             <h2>Our Services</h2>
 
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
@@ -140,15 +116,18 @@
                 <!-- Card 1 -->
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/pet1.jpg"
-                            class="card-img-top"
+                        <img src="images/pet1.jpg" class="card-img-top"
                             alt="Dog receiving a bath">
-
                         <div class="card-body">
                             <h3 class="card-title h5">Dog Bathing</h3>
                             <p class="card-text">
                                 We help dogs stay clean and comfortable.
                             </p>
+                            <button class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal1">
+                                Learn More
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -156,15 +135,18 @@
                 <!-- Card 2 -->
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/pet2.jpg"
-                            class="card-img-top"
+                        <img src="images/pet2.jpg" class="card-img-top"
                             alt="Cat taking a bath">
-
                         <div class="card-body">
                             <h3 class="card-title h5">Cat Bathing</h3>
                             <p class="card-text">
                                 Gentle bathing care for cats.
                             </p>
+                            <button class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal2">
+                                Learn More
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -172,15 +154,18 @@
                 <!-- Card 3 -->
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/pet3.jpg"
-                            class="card-img-top"
+                        <img src="images/pet3.jpg" class="card-img-top"
                             alt="Dog playing with colorful balls">
-
                         <div class="card-body">
                             <h3 class="card-title h5">Pet Playtime</h3>
                             <p class="card-text">
                                 Fun activities to keep pets happy and active.
                             </p>
+                            <button class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal3">
+                                Learn More
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -188,15 +173,18 @@
                 <!-- Card 4 -->
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/pet4.jpg"
-                            class="card-img-top"
+                        <img src="images/pet4.jpg" class="card-img-top"
                             alt="Dog jumping over a small obstacle">
-
                         <div class="card-body">
                             <h3 class="card-title h5">Dog Activities</h3>
                             <p class="card-text">
                                 We provide fun exercise activities for dogs.
                             </p>
+                            <button class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal4">
+                                Learn More
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -204,15 +192,18 @@
                 <!-- Card 5 -->
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/pet5.jpg"
-                            class="card-img-top"
+                        <img src="images/pet5.jpg" class="card-img-top"
                             alt="Happy golden retriever sitting indoors">
-
                         <div class="card-body">
                             <h3 class="card-title h5">Pet Sitting</h3>
                             <p class="card-text">
                                 We care for pets while their owners are away.
                             </p>
+                            <button class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal5">
+                                Learn More
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -220,15 +211,87 @@
                 <!-- Card 6 -->
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/pet6.jpg"
-                            class="card-img-top"
+                        <img src="images/pet6.jpg" class="card-img-top"
                             alt="Dog receiving a haircut">
-
                         <div class="card-body">
                             <h3 class="card-title h5">Dog Grooming</h3>
                             <p class="card-text">
                                 Grooming services to keep dogs looking neat.
                             </p>
+                            <button class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal6">
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Accordion -->
+        <section class="mt-5">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="accordion" id="petAccordion">
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#answerOne"
+                            aria-expanded="true"
+                            aria-controls="answerOne">
+                            What services do you offer?
+                        </button>
+                    </h3>
+                    <div id="answerOne"
+                        class="accordion-collapse collapse show"
+                        data-bs-parent="#petAccordion">
+                        <div class="accordion-body">
+                            We offer pet bathing, grooming, sitting,
+                            and fun activities.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#answerTwo"
+                            aria-expanded="false"
+                            aria-controls="answerTwo">
+                            Do you care for cats and dogs?
+                        </button>
+                    </h3>
+                    <div id="answerTwo"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#petAccordion">
+                        <div class="accordion-body">
+                            Yes, we provide services for both cats and dogs.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#answerThree"
+                            aria-expanded="false"
+                            aria-controls="answerThree">
+                            How can I contact you?
+                        </button>
+                    </h3>
+                    <div id="answerThree"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#petAccordion">
+                        <div class="accordion-body">
+                            You can visit our Contact page to send us a message.
                         </div>
                     </div>
                 </div>
@@ -237,6 +300,150 @@
         </section>
 
     </main>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="modal1" tabindex="-1"
+        aria-labelledby="modalTitle1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="modalTitle1">
+                        Dog Bathing
+                    </h2>
+                    <button type="button" class="btn-close"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Our dog bathing service helps keep your dog clean,
+                    fresh, and comfortable.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                        data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="modal2" tabindex="-1"
+        aria-labelledby="modalTitle2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="modalTitle2">
+                        Cat Bathing
+                    </h2>
+                    <button type="button" class="btn-close"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    We provide gentle bathing care to help cats stay
+                    clean and comfortable.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                        data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="modal3" tabindex="-1"
+        aria-labelledby="modalTitle3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="modalTitle3">
+                        Pet Playtime
+                    </h2>
+                    <button type="button" class="btn-close"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Our playtime activities give pets a chance to have
+                    fun, exercise, and stay active.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                        data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="modal fade" id="modal4" tabindex="-1"
+        aria-labelledby="modalTitle4" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="modalTitle4">
+                        Dog Activities
+                    </h2>
+                    <button type="button" class="btn-close"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    We offer fun activities that help dogs exercise
+                    and enjoy their time.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                        data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="modal fade" id="modal5" tabindex="-1"
+        aria-labelledby="modalTitle5" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="modalTitle5">
+                        Pet Sitting
+                    </h2>
+                    <button type="button" class="btn-close"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Our pet sitting service provides care and attention
+                    when pet owners are busy or away.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                        data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="modal fade" id="modal6" tabindex="-1"
+        aria-labelledby="modalTitle6" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="modalTitle6">
+                        Dog Grooming
+                    </h2>
+                    <button type="button" class="btn-close"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Our grooming service helps dogs look neat
+                    and feel comfortable.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                        data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="container mt-5 mb-4">
         <p>Pet Care Services</p>
